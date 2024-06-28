@@ -4,6 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+# Photo Gallery
+
+This is a simple Angular application that fetches and displays photos from an API.
+
+## Commands
+
+### Install Dependencies
+
+```sh
+npm install
+
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding

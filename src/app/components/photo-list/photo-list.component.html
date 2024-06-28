@@ -1,0 +1,14 @@
+<h1 class="title">Photo Place Holders</h1>
+
+<div class="photo-list">
+    <div *ngFor="let photo of photos" class="photo-item">
+        <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+        <p>{{ photo.title }}</p>
+    </div>
+</div>
+
+<div class="pagination-controls">
+    <button (click)="prevPage()" [disabled]="page === 1">Previous</button>
+    <button (click)="nextPage()">Next</button>
+</div>
+  
